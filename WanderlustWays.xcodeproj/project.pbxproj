@@ -6,13 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9B0EA4142D0954C3001B9713 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0EA4132D0954C3001B9713 /* FirebaseAuth */; };
+		9B0EA4162D0954C3001B9713 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0EA4152D0954C3001B9713 /* FirebaseFirestore */; };
+		9B0EA4182D0954C3001B9713 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0EA4172D0954C3001B9713 /* FirebaseFirestoreSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9B1C46042D0903D600B5F37C /* WanderlustWays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WanderlustWays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9B1C46372D09460700B5F37C /* Exceptions for "WanderlustWays" folder in "WanderlustWays" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9B1C46032D0903D600B5F37C /* WanderlustWays */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9B1C46062D0903D600B5F37C /* WanderlustWays */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9B1C46372D09460700B5F37C /* Exceptions for "WanderlustWays" folder in "WanderlustWays" target */,
+			);
 			path = WanderlustWays;
 			sourceTree = "<group>";
 		};
@@ -23,6 +42,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0EA4142D0954C3001B9713 /* FirebaseAuth in Frameworks */,
+				9B0EA4162D0954C3001B9713 /* FirebaseFirestore in Frameworks */,
+				9B0EA4182D0954C3001B9713 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				9B1C46062D0903D600B5F37C /* WanderlustWays */,
+				9B1C46352D0945E000B5F37C /* Frameworks */,
 				9B1C46052D0903D600B5F37C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +66,13 @@
 				9B1C46042D0903D600B5F37C /* WanderlustWays.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9B1C46352D0945E000B5F37C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +95,9 @@
 			);
 			name = WanderlustWays;
 			packageProductDependencies = (
+				9B0EA4132D0954C3001B9713 /* FirebaseAuth */,
+				9B0EA4152D0954C3001B9713 /* FirebaseFirestore */,
+				9B0EA4172D0954C3001B9713 /* FirebaseFirestoreSwift */,
 			);
 			productName = WanderlustWays;
 			productReference = 9B1C46042D0903D600B5F37C /* WanderlustWays.app */;
@@ -94,6 +127,9 @@
 			);
 			mainGroup = 9B1C45FB2D0903D600B5F37C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9B0EA4122D0954C3001B9713 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9B1C46052D0903D600B5F37C /* Products */;
 			projectDirPath = "";
@@ -252,9 +288,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WanderlustWays/Preview Content\"";
-				DEVELOPMENT_TEAM = B2B5B32T4C;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WanderlustWays/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -281,9 +318,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WanderlustWays/Preview Content\"";
-				DEVELOPMENT_TEAM = B2B5B32T4C;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WanderlustWays/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +362,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B0EA4122D0954C3001B9713 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B0EA4132D0954C3001B9713 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B0EA4122D0954C3001B9713 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9B0EA4152D0954C3001B9713 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B0EA4122D0954C3001B9713 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9B0EA4172D0954C3001B9713 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B0EA4122D0954C3001B9713 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9B1C45FC2D0903D600B5F37C /* Project object */;
 }
