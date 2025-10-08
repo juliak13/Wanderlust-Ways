@@ -2,6 +2,8 @@
 ## iOS Development Project for Database Systems Course
 
 * This is an unpublished and unfinished application, with possibility of completion in the future.
+* Developed in Fall of 2024
+* App Icon Created with AI and Edited Afterwards
 
 This application was developed as part of a Graduate Database Systems course. The goal of the project was to explore implementing databases through a website or an application. I chose to do an iOS application as I never had the opportunity to complete one for a class and thought it was the perfect opportunity. 
 
