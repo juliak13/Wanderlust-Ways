@@ -24,11 +24,11 @@ For user authentication, Google Firebase Authencation, provides password hashing
       - The user can edit the activity and view the calender
 
 ## Screenshots
-![Dashboard](app screenshots/dashboard.png)
-![Trip Details] (app screenshots/6. trip list view.png)
-![Add Trip] (app screenshots/7. add trip.png)
-![Add Activity] (app screenshots/8. add activity.png)
-![Packing List] (app screenshots/10. add to packing lsit.png)
+![Dashboard](screenshots/dashboard.png)
+![Trip Details](screenshots/trip_list_view.png)
+![Add Trip](screenshots/add_trip.png)
+![Add Activity](screenshots/add_activity.png)
+![Packing List](screenshots/packing_list_edit.png)
 
 
 ## Future Development 
